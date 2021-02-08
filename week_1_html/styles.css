@@ -1,0 +1,15 @@
+.skills_table {
+  border: 1px black;
+  padding-left: 10px;
+  width: max-content;
+}
+
+#h3 {
+  padding-left: 10px;
+}
+
+.footer_img {
+  width: 500px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

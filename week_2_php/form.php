@@ -18,15 +18,9 @@
         </form>
     </div>
     
-    <?php
-        echo "Welcome " . $_POST['firstname'] . "<br>";
-    ?>
+    <?php 
+    
 
-    
-     
-     
-     
-    
 </body>
 </html>
 

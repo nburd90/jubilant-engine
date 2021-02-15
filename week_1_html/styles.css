@@ -2,26 +2,44 @@
 
 body {
   background-image: url("/Users/Nicholas/Desktop/My Workspace/jubilant-engine/week_1_html/pexels-fauxels-3184460.jpg");
-  background-color: ;
-  height: 500px;
+  height: 100%;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   width: auto;
-  margin: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans" sans-serif;
 }
- 
-.hero-image {
 
-
+nav a {
+  float: right;
+  text-decoration: none;
+  color: #002e5b;
+  font-size: 16px;
+  padding: 25px 35px;
+  transition: all 0.5s ease 0s;
 }
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%)
-  color: white;
+
+#logo {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #002e5b;
+  font-weight: bold;
+  float: left;
+  padding: 10px;
+  margin-left: 48%;
+}
+
+header {
+  overflow: hidden;
+  background-color: fde428;
+}
+
+nav {
+  margin-left: 10%;
 }
 
 div {
@@ -32,35 +50,19 @@ div {
 }
 
 .main {
+  height: 1000px;
   width: auto;
   margin: auto;
 }
 
-#h3 {
-  padding-left: 10px;
-}
-
-.gallery {
-  width: auto;
-  margin: auto;
-  border: 1px #ccc;
-  float: left;
-  width: 180px;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
-}
-
-.gallery img {
+footer {
   width: 100%;
-  height: auto;
-}
-
-.desc {
-  padding: 15px;
   text-align: center;
+  padding-bottom: 5%;
 }
 
-#links {
+footer a {
+  text-decoration: none;
+  font-family: serif;
+  color: black;
 }

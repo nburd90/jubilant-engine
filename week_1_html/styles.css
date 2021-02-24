@@ -46,8 +46,10 @@ header {
 
 nav {
   display: flex;
-  
-  margin-left: auto;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #5d4954;
 }
 
 div {

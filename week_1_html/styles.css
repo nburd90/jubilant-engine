@@ -2,11 +2,9 @@
 
 * {
   margin: 0px;
-  padding: 0px:
+  padding: 0px;
   box-sizing: border-box;
 }
-
-
 
 body {
   background-image: url("images/pexels-fauxels-3184460.jpg");
@@ -38,13 +36,13 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: #5d4954;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;  
+  width: 30%;
 }
 
 .nav-links a {
@@ -66,17 +64,20 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color:  rgb(226, 226, 226);
-  margin: 5px; 
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .nav-links {
     width: 60%;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .nav-links {
     position: absolute;
     right: 0px;
@@ -87,14 +88,9 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 40%;
+    transform: translateX(100%);
   }
 }
-
-
-
-
-
-
 
 .main {
   /*Needed for paralax scrolling*/

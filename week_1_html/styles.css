@@ -22,15 +22,6 @@ body {
   font-family: "Open Sans" sans-serif;
 }
 
-nav a {
-  float: left;
-  text-decoration: none;
-  color: #000000;
-  font-size: 16px;
-  padding: 20px 25px;
-  transition: all 0.5s ease 0s;
-}
-
 .logo {
   font-size: 20px;
   text-transform: uppercase;
@@ -39,10 +30,6 @@ nav a {
   float: right;
   letter-spacing: 5px;
   font-size: 20px;
-}
-
-header {
-  overflow: hidden;
 }
 
 nav {
@@ -58,6 +45,14 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 30%;  
+}
+
+.nav-links a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 

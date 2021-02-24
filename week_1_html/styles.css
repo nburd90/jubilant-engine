@@ -1,5 +1,13 @@
 /* main css file */
 
+* {
+  margin: 0px;
+  padding: 0px:
+  box-sizing: border-box;
+}
+
+
+
 body {
   background-image: url("images/pexels-fauxels-3184460.jpg");
   height: 100%;
@@ -37,6 +45,8 @@ header {
 }
 
 nav {
+  display: flex;
+  
   margin-left: auto;
 }
 

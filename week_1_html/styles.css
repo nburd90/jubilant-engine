@@ -55,15 +55,12 @@ nav {
 }
 
 .nav-links {
-  
+  display: flex;
+  justify-content: space-around;
+  width: 30%;  
 }
 
-div {
-  display: block;
-  text-align: center;
-  width: 50%;
-  border-radius: 15;
-}
+
 
 .main {
   /*Needed for paralax scrolling*/

@@ -90,6 +90,12 @@ nav {
     width: 40%;
     transform: translateX(100%);
   }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
 }
 
 .main {

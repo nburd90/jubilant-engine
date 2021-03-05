@@ -18,7 +18,7 @@
     <?php 
         $color = $_POST["color"];
         $pluralNoun = $_POST["pluralNoun"];
-        $celebrity =$_POST ["celebrity"];
+        $celebrity = $_POST ["celebrity"];
         
         echo "Roses are $color <br>";
         echo "$pluralNoun are blue <br>";

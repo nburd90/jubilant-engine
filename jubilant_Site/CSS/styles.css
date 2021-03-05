@@ -1,0 +1,68 @@
+/* main css file */
+
+body {
+  background-image: url("/Users/Nicholas/Desktop/My Workspace/jubilant-engine/week_1_html/pexels-fauxels-3184460.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans" sans-serif;
+}
+
+nav a {
+  float: right;
+  text-decoration: none;
+  color: #002e5b;
+  font-size: 16px;
+  padding: 25px 35px;
+  transition: all 0.5s ease 0s;
+}
+
+#logo {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #002e5b;
+  font-weight: bold;
+  float: left;
+  padding: 10px;
+  margin-left: 48%;
+}
+
+header {
+  overflow: hidden;
+  background-color: fde428;
+}
+
+nav {
+  margin-left: 10%;
+}
+
+div {
+  display: block;
+  text-align: center;
+  width: 50%;
+  border-radius: 15;
+}
+
+.main {
+  height: 1000px;
+  width: auto;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: serif;
+  color: black;
+}

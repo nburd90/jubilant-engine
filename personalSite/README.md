@@ -2,6 +2,6 @@
 
 Hi, I'm Nick!
 
-## Subheader
+## I'm a Web Developer from Buffalo. 
 
-I'm a Web Developer from Buffalo.
+

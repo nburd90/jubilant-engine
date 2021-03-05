@@ -1,7 +1,7 @@
 /* main css file */
 
 body {
-  background-image: url("/Users/Nicholas/Desktop/My Workspace/jubilant-engine/week_1_html/pexels-fauxels-3184460.jpg");
+  background-image: url("pexels-fauxels-3184460.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;

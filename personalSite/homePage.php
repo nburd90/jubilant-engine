@@ -1,44 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">  
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Nicky B | Web Developer</title>
-    <link rel="stylesheet" href="styles.css"/>
-  </head>
+<html lang="en">
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Nicky B | Web Developer</title>
+</head>
+
+<body>
   
   <header>
-    <section>
-      <div id="logo">
-      <nav class="nav">
-        <a href="#Skills">Skills</a>
-        <a href="#Past-Work">Past Work</a>
-        <a href="#Contact">Contact</a>
-        <a href="#About-Me">About Me</a>
-      </div>
+    <nav class="nav">
+      <div class="logo">
+        <h4>My Portfolio</h4>
+      </div>  
+      <ul class="nav-links">
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Past-Work">Work</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+          <li>
+            <a href="#About-Me">About</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
-    </section>
+    </div>
   </header>
-  
-  
-<body class="body">
-  <div class="main">
-     
 
-    
-    
-  </div>
-</body>     
-      
-
-      <!--end container-->
+  <div class="container"></div>
   
-    <footer>
-      <a href="">Home Page</a>
-      <a href="">Privacy Policy</a>
-      <a href="">Terms of Service</a>
-    </footer>
-      
-    
-      
+  
+  <footer>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+  </footer>
+</body>
+
+  <!--end container-->
+
+ 
 </html>

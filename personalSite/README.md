@@ -1,7 +1,7 @@
-# Demo
+# My Portfolio 
 
-A very nice description!
+Hi, I'm Nick!
 
-## Subheader
+## I'm a Web Developer from Buffalo. 
 
-An even better description.
+

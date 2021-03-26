@@ -7,16 +7,25 @@
 }
 
 body {
-	background-image: url("/imgs/backgroundPic.jpg");
-	background-attachment: fixed;
+	/*location of the image*/
+	background-image: url('imgs/IMG_1960.JPG');
+	/*background image centered vertically and horizontally*/
 	background-position: center;
-	background-repeat: no-repeat;
+	background-image: no-repeat;
+	/*background image will scale based on div size*/
 	background-size: cover;
-	display: block;
-	width: auto;
-	margin: 0px;
-	padding: 0px;
-	font-family: "Open Sans" sans-serif;
+	background-attachment: fixed;
+}
+
+.container {
+	margin-top: 45%;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: xxx-large;
+	text-shadow: 2px 2px 2px black;
 }
 
 .logo {

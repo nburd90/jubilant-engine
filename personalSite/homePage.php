@@ -7,7 +7,7 @@
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="CSS/styles.css" />
 	<title>Nicky B | Web Developer</title>
 </head>
 
@@ -16,7 +16,7 @@
 	<header>
 		<nav class="nav">
 			<div class="logo">
-				<h4>My Portfolio</h4>
+				<h4>Buff Developments</h4>
 			</div>
 			<ul class="nav-links">
 				<li>
@@ -41,7 +41,11 @@
 		</div>
 	</header>
 
-	<div class="container"></div>
+	<div class="container">
+		<h1>Hey, I'm Nick.</h1>
+		<p>I'm a Web Developer from Buffalo.</p>
+	</div>
+
 
 
 	<footer>

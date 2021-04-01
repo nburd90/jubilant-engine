@@ -9,13 +9,16 @@
 
 <body>
 	<div name="form">
-		<form method="post" name="your-message">
-			First Name: <input type="text" name="firstname"><br>
-			Last Name: <input type="text" name="lastname"><br>
-			Username: <input type="text" name="username"><br>
-			Password: <input type="password" name="password"><br>
-			Your Message: <textarea name="your message">type here</textarea><br>
-			<input type="submit" value="send message">
+		<form action="contact.php" method="post" name="your-message">
+			First Name: <input type="text" name="firstName" id="firstName" <?= (isset($_POST['firstName']) ? 'value="' . $_POST['firstName'] . '"' : '') ?> required />
+			<br>
+			Last Name: <input type="text" name="lastName" id="lastName" <?= (isset($_POST['lastName']) ? 'value="' . $_POST['lastName'] . '"' : '') ?> required />
+			<br>
+			<div class="email">
+				Enter an Email: <input type="email" id="email" name="email" placeholder="email@example.com" <?= (isset($_POST['email']) ? 'value="' . $_POST['email'] . '"' : '') ?> required />
+				</br></br>
+			</div>
+			<input type="submit" name="submit" value="send message">
 		</form>
 	</div>
 

@@ -1,19 +1,30 @@
 <?php
 
-use \Psr\Http\Message\ServerRequestInterface as Request;
-use \Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Slim\Factory\AppFactory;
 
-require 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-$app = new \Slim\App;
-$app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
-	$name = $args['name'];
-	$response->getBody()->write("Hello, $name");
+$app = AppFactory::create();
 
+
+
+$app->get('/', function (Request $request, Response $response) {
+	$response->getBody()->write("What's up dude!");
 	return $response;
 });
-$app->run();
 
+
+
+
+
+// $app->get('/', function (Request $request, Response $response, $args) {
+// $response->getBody()->write("Hello world!");
+// return $response;
+// });
+
+$app->run();
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +55,7 @@ $app->run();
 					<a href="#Past-Work">Work</a>
 				</li>
 				<li>
-					<a href="#Contact">Contact</a>
+					<a href="/contact.php">Contact</a>
 				</li>
 				<li>
 					<a href="#About-Me">About</a>

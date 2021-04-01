@@ -8,12 +8,15 @@ require __DIR__ . '/vendor/autoload.php';
 
 $app = AppFactory::create();
 
+//Why add routing middleware?
+$app->addRoutingMiddleware();
 
-
+//Define app routes
 $app->get('/', function (Request $request, Response $response) {
 	$response->getBody()->write("What's up dude!");
 	return $response;
 });
+
 
 
 
@@ -41,35 +44,7 @@ $app->run();
 </head>
 
 <body>
-
-	<header>
-		<nav class="nav">
-			<div class="logo">
-				<h4>Buff Developments</h4>
-			</div>
-			<ul class="nav-links">
-				<li>
-					<a href="#Skills">Skills</a>
-				</li>
-				<li>
-					<a href="#Past-Work">Work</a>
-				</li>
-				<li>
-					<a href="/contact.php">Contact</a>
-				</li>
-				<li>
-					<a href="#About-Me">About</a>
-				</li>
-			</ul>
-			<div class="burger">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-		</div>
-	</header>
-
+	<?php include 'navbar.php'; ?>
 	<div class="container">
 		<h1>Hey, I'm Nick.</h1>
 		<p>I'm a Web Developer from Buffalo.</p>
